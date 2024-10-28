@@ -1,0 +1,86 @@
+nav{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    @media (min-width: 480px){
+        height: 90px !important;
+    }
+    @media (min-width: 768px){
+        height: 90px !important;
+    }
+    .navbar-toggler{
+        @media (min-width: 480px){
+            display: none;
+        }
+    }
+    .nav{
+        background-color: black;
+        width: 100%;
+        height: 80px;
+        @media (min-width: 480px){
+            display: flex !important; 
+            justify-content: center;  
+            flex-direction: row; 
+        }
+        @media (min-width: 1920px){
+            background-color: black;
+            width: 100%;
+            height: 80px;
+        }        
+    }
+    .lista{
+        display: flex;
+        justify-content: space-around;
+        width:100%;
+        @media (min-width:480px){
+            display: flex;
+            flex-direction: row;
+        }
+        @media (min-width:1920px){
+            display: flex;
+            justify-content: space-around;
+            width:100% ;
+        }
+        .botones{
+            background-color:rgb(216, 98, 113) ;
+            width: 200px;
+            text-align: center;
+            border: solid 2px ;
+            border-radius: 7px;
+            &:hover{
+                background-color: rgb(170, 39, 72);
+                border: solid 2px rgb(105, 3, 29);
+                }
+            @media (min-width: 400px){
+                width: 80px;
+                font-size: 10px;
+            }
+            @media (min-width: 768px){
+                width: 100px;
+                font-size: 15px;
+            }
+            @media (min-width: 1920px){
+                background-color:rgb(216, 98, 113);
+                width: 200px !important;
+                text-align: center;
+                border: solid 2px ;
+                border-radius: 7px;
+                font-size: 1rem !important;
+            }
+            @media (min-width: 1200px){
+                width: 200px;
+                font-size: 1.8rem;
+            }
+            
+        }
+        .dropdown-menu {
+            background-color: rgb(0, 0, 0); 
+            color: rgb(131, 14, 14);
+            .dropdown-item{
+                &:hover{
+                    background-color: rgb(39, 37, 37);
+                }
+            } 
+        }
+    }
+}

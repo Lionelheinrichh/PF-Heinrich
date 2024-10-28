@@ -1,0 +1,654 @@
+.mainadidas{
+    @media (min-width: 480px){
+        padding-bottom: 10px;
+    }
+}
+.maincontacto{
+    padding-bottom: 50px;
+    .titulocontacto{
+        @media (min-width: 480px){
+            font-size: 4rem;
+        }
+    }
+}
+.mainindex{
+    padding-bottom: 0;
+}
+main{
+    height: auto;
+    width: 99vw;
+    padding-bottom: 350px;
+    .multimediaindex{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        @media (min-width: 480px){
+            display: flex;
+            flex-direction: column;
+        }
+        @media (min-width: 1024px){
+            display: flex;
+            flex-direction: row;
+        }
+        @media (min-width: 1920px){
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+        .videozapas1, .videozapas2{
+            width: 700px;
+            height: 394px;
+            box-shadow: 10px 10px 10px 10px ;
+            @media (min-width: 400px){
+                width: 300px;
+                height: auto;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+            @media (min-width: 768px){
+                width: 500px;
+                height: auto;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+            @media (min-width: 1024px){
+                width: 300px;
+                height: auto;
+                margin-bottom: 30px;
+            }
+            @media (min-width: 1200px){
+                width: 380px;
+                height: auto;
+                margin-bottom: 30px;
+            }
+            @media (min-width: 1920px){
+                width: 700px;
+                height: 394px;
+                box-shadow: 10px 10px 10px 10px ;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+        .carousel{
+            box-shadow: 10px 10px 10px 10px;
+            @media (min-width: 400px){
+                width: 300px !important;
+            }
+            @media (min-width: 768px){
+                width: 500px !important;
+            }
+            @media (min-width: 1024px){
+                width: 400px !important;
+            }
+        }
+    }
+    .productosadidas{
+        display: flex;
+        flex-direction: row;
+        @media (min-width: 480px){
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 0px;
+        }
+        @media (min-width: 1200px){
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 0px;
+            margin-top: 40px;
+        }
+        @media (min-width: 1920px){
+            display: flex;
+            flex-direction: row;
+        }
+        .tarjetazapas{
+            background-color: rgb(192, 128, 134);
+            width: 450px;
+            height: 520px;
+            padding-left: 70px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-right: 70px;
+            margin-left: 130px;
+            box-shadow: 10px 10px 10px 10px;
+            margin-top: 20px;
+            @media (min-width: 480px){
+                margin-left: 15px;
+                margin-bottom: 10px;
+                height: 60%;
+            }
+            @media (min-width: 768px){
+                margin-left: 150px;
+                margin-bottom: 10px;
+            }
+            @media (min-width: 1024px){
+                margin-left:270px;
+            }
+            @media (min-width: 1200px){
+                margin-right: 10px;
+                margin-left: 10px;
+                width: 380px;
+                height: 520px;
+                margin-left: 30px;
+                margin-top: 30px;
+                bottom: 0px;
+            }
+            @media (min-width: 1920px){
+                background-color: rgb(192, 128, 134);
+                width: 450px;
+                height: 520px;
+                padding-left: 70px;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                padding-right: 70px;
+                margin-left: 130px;
+                box-shadow: 10px 10px 10px 10px;
+                margin-top: 90px;
+            }
+            .linkcomprar{
+                text-decoration: none;
+                color: black;
+            }
+            .carouseladidas{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                width: 290px;
+                max-width: 100%;
+            }
+            .botoncomprar{
+                background-color: green;
+                width: 200px;
+                height: 60px;
+                margin-left: 50px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: auto;
+                &:hover{
+                    background-color: rgb(6, 68, 6);
+                    color: white;   
+                }
+                @media (min-width: 1200px){
+                    margin-left: 25px;
+                }
+                @media (min-width: 1920px){
+                    background-color: green;
+                    width: 200px;
+                    height: 60px;
+                    margin-left: 50px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    padding: auto;
+                }
+            }
+            .accordion-body{
+                background-color: #d87676;
+                color: white;
+            }  
+        }
+    }
+    .tituloadidas{
+        text-align: center;
+        font-size: 6rem;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        box-shadow: 10px 10px 10px 10px;    
+    }
+    .parrafonosotros{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 2rem;
+        font-style: italic;
+        background-color: #d87676;
+        border-radius: 20px;
+        margin-right: 40px;
+        margin-left: 40px;
+        box-shadow: 10px 10px 10px 10px;
+        @media (min-width: 480px){
+            font-size: 1rem;
+        }
+        @media (min-width: 768px){
+            font-size: 2rem;
+        }
+        @media (min-width: 1920px){
+            margin-bottom: 0px !important;
+            height: 600px;
+            padding-top: 50px;
+        }
+    }
+    .formulario{
+        margin: auto;
+        width: 700px;
+        height: 500px;
+        margin-top: 100px;
+        border: solid 3px black;
+        padding: 30px;
+        background-color: #be8181;
+        box-shadow: 10px 10px 10px 10px;
+        .enviarcontacto{
+            text-align: center;
+        }
+        @media (min-width: 480px){
+            width: 400px;
+        }
+        @media (min-width: 768px){
+            width: 700px;
+        }
+        @media (min-width: 1920px){
+            margin: auto;
+            width: 700px;
+            height: 500px;
+            margin-top: 100px;
+            border: solid 3px black;
+            padding: 30px;
+            background-color: #be8181;
+            box-shadow: 10px 10px 10px 10px;
+        }
+    }
+    .cuadradodecompra{
+        width: 1300px;
+        height: 90vh;
+        background-color: rgb(207, 195, 198);
+        text-align: center;
+        margin-left: 280px;
+        margin-top: 60px;
+        object-fit: cover;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        flex-direction: row;
+        @media (min-width: 480px){
+            width:450px;
+            margin-left: 20px;
+        }
+        @media (min-width: 768px){
+            width: 740px;
+        }
+        @media (min-width: 1024px){
+            width: 1000px;
+        }
+        @media (min-width: 1920px){
+            width: 1300px;
+            height: 90vh;
+            background-color: rgb(207, 195, 198);
+            text-align: center;
+            margin-left: 280px;
+            margin-top: 60px;
+            object-fit: cover;
+            position: absolute;
+            z-index: 2;
+            display: flex;
+            flex-direction: row;
+        }
+        .zapascompra{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            width: 800px;
+            height: 858px;
+            box-shadow: none;
+            @media (min-width: 480px){
+                width: 150px;
+                height: 779px;
+            }
+            @media (min-width: 768px){
+                width: 350px;
+                height: 779px;
+            }
+            @media (min-width: 1024px){
+                width: 600px;
+                height: 779px; 
+            }
+            @media (min-width: 1920px){
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                width: 800px;
+                height: 858px;
+                box-shadow: none; 
+            }
+        }
+        .contenidodecompra{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            @media (min-width: 480px){
+                width: 200px;
+                font-size: 1rem;
+            }
+            @media (min-width: 1920px){
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+            }
+            .titulonike{
+                @media (min-width: 480px){
+                    font-size: 20px;
+                    width: 400px;
+                    padding-right: 100px;
+                }
+                @media (min-width: 768px){
+                    margin-left: 40px;
+                }
+                @media (min-width: 1920px){
+                    margin-left: 100px;
+                    font-size: 1.5rem;
+                } 
+            }
+            .titulonike2{
+                @media (min-width: 480px){
+                    font-size: 20px;
+                    margin-left: 5px;
+                    width: 300px;  
+                }
+                @media (min-width: 768px){
+                    margin-left: 40px;
+                }
+                @media (min-width: 1920px){
+                    margin-left: 100px;
+                    font-size: 1.5rem;
+                }
+            }
+            .titulonike3{
+                @media (min-width: 480px){
+                    font-size: 20px;
+                    width: 200px;
+                    margin-left: 60px;
+                }
+                @media (min-width: 768px){
+                    font-size: 30px;
+                    width: 400px;
+                    margin-left: 5px;
+                }
+                @media (min-width: 1920px){
+                    margin-left: 60px;
+                }
+            }
+            .titulopuma{
+                @media (min-width: 480px){
+                    font-size: 15px;
+                    width: 300px;
+                    margin-left: 0px;
+                }
+                @media (min-width: 768px){
+                    margin-left: 45px;
+                    font-size: 20px;
+                }
+                @media (min-width: 1920px){
+                    margin-left: 80px;
+                    font-size: 1.5rem;
+                    width: 350px;
+                }
+            }
+            .titulopuma2{
+                @media (min-width: 480px){
+                    font-size: 15px;
+                    margin-left: 5px;
+                    width: 300px;
+                }
+                @media (min-width: 768px){
+                    font-size: 20px;
+                    margin-left: 45px;
+                }
+                @media (min-width: 1920px){
+                    margin-left:50px ;
+                    width: 400px;
+                    font-size: 1.5rem;
+                }
+            }
+            .titulopuma3{
+                @media (min-width: 480px){
+                    font-size: 15px;
+                    margin-left: 55px;
+                    width: 200px;  
+                }
+                @media (min-width: 768px){
+                    font-size: 20px;
+                    margin-left: 45px;
+                    width: 300px;
+                }
+                @media (min-width: 1920px){
+                    font-size: 30px;
+                    margin-left: 60px;
+                    width: 400px;
+                }
+            }
+            .descripcionnike{
+                @media (min-width: 480px){
+                    font-size: 1rem;  
+                }
+                @media (min-width: 1920px){
+                    font-size: 1.3rem;
+                }
+            }
+            .descripcionnike2{
+                @media (min-width: 768px){
+                    font-size: 1.2rem;
+                }
+            }
+            .titulozapas{
+                @media (min-width: 480px){
+                    font-size: 20px;
+                    padding-left: 10px;
+                    width: 300px;
+                }
+                @media (min-width: 768px){
+                    font-size: 20px;
+                    padding-left: 80px;
+                    width: 300px;
+                }
+                @media (min-width: 1920px){
+                    font-size: 30px;
+                    padding-left: 10px;
+                    width: 500px; 
+                }
+            }
+            .titulozapas2{
+                @media (min-width: 480px){
+                    font-size: 20px;
+                    width: 300px;
+                    padding-left: 10px;
+                }
+                @media (min-width: 768px){
+                    padding-right: 15px;
+                    width: 400px;
+                }
+                @media (min-width: 1024px){
+                    margin-left: 60px;
+                }
+            }
+            .titulozapas3{
+                @media (min-width: 1024px){
+                    margin-left: 2px; 
+                }
+            }
+            .columnatalles1,.columnatalles2{
+                margin-top: 20px;
+                display: flex;
+                flex-direction: row;
+                margin-left: 80px;
+                @media (min-width: 1920px){
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 80px;
+                }
+                .talle1{
+                    background-color: #f3a4a4;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                    &:hover{
+                        background-color: #e5b9b9;
+                        color: white  
+                    }
+                    @media (min-width: 480px){
+                        margin-left: 0px;
+                    }
+                    @media (min-width: 768px){
+                        margin-left: 38px;
+                    }
+                    @media (min-width: 1920px){
+                        background-color: #f3a4a4;
+                        margin-right: 10px;
+                        margin-left: 100px;
+                    }
+                }
+                .talle2{
+                    background-color: #f3a4a4;
+                    margin-right: 10px;
+                    &:hover{
+                        background-color: #e5b9b9;
+                        color: white
+                    }
+                }
+                .talle3{
+                    background-color: #f3a4a4;
+                    margin-right: 90px;
+                    &:hover{
+                        background-color: #e5b9b9;
+                        color: white
+                    }   
+                }
+
+            }
+            .botondeagregaralcarrito{
+                margin-top: 50px;
+                background-color: black;
+                border-radius: 50px;
+                width: 300px;
+                text-align: center;
+                margin-left: 120px;
+                padding: 15px;
+                color: white;
+                text-decoration: none;
+                font-size: 1.5rem;
+                &:hover{
+                    background-color: green;
+                    color: black; 
+                }
+                @media (min-width: 480px){
+                    width: 200px;
+                    font-size: 20px;
+                    margin-left: 55px;
+                }
+                @media (min-width: 768px){
+                    width: 200px;
+                    font-size: 20px;
+                    margin-left: 90px;
+                }
+                @media (min-width: 1920px){
+                    margin-top: 50px;
+                    background-color: black;
+                    border-radius: 50px;
+                    width: 300px;
+                    text-align: center;
+                    margin-left: 110px;
+                    padding: 15px;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.5rem;
+                }
+            }
+            .botondeagregaralcarrito2{
+                margin-left: 140px;
+            }
+            .botondeagregaralcarrito3{
+                margin-left: 190px;
+            }
+            .botondeagregaralcarrito4{
+                margin-left: 150px;
+            }
+            .botondeagregaralcarrito5{
+                margin-left: 100px;
+            }
+            .textodebajodelboton{
+                font-style: italic;
+                margin-top: 5px;
+                @media (min-width: 480px){
+                    margin-left: 5px;
+                    width: 300px;
+                }
+                @media (min-width: 768px){
+                    margin-left: 40px;
+                    width: 300px;
+                }
+                @media (min-width: 1920px){
+                    font-style: italic;
+                    margin-top: 5px;
+                    margin-left: 110px;
+                }
+            }
+            .descripcion{
+                width: 400px;
+                margin-left: 60px;
+                font-size: 1.2rem;
+                @media (min-width: 480px){
+                    font-size: 13px;
+                    margin-left: 10px;
+                    width: 280px;
+                }
+                @media (min-width: 768px){
+                    font-size: 15px;
+                    margin-left: 45px;
+                    width: 280px;
+                }
+                @media (min-width: 1920px){
+                    width: 400px;
+                    margin-left: 60px;
+                    font-size: 1.2rem;
+                }
+            }
+            .descripcion2{
+                margin-left: 80px;
+                @media (min-width: 1024px){
+                    margin-left: 55px;
+                    font-size: 1rem;
+                }
+            }
+            .descripcionpuma{
+                margin-left: 140px;
+                margin-top: 0px;
+                font-size: 1.1rem;
+            }
+            .descripcionpuma2{
+                margin-left: 110px;
+            }
+            .descripcionadidas{
+                margin-left: 80px;
+            }
+            .descripcionadidas2{
+                margin-left: 50px;
+            }
+            .titulodescripcion{
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 40px;
+                color: #d87676;
+                font-size: 1.3rem;
+            }
+            .botoninicio{
+                display: flex;
+                justify-content:center;
+                margin-right: 30px;
+                @media (min-width: 480px){
+                    margin-left: 50px;
+                    width: 200px;
+                }
+                @media (min-width: 768px){
+                    margin-left: 90px;
+                    width: 200px;
+                }
+                @media (min-width: 1920px){
+                    margin-left: 150px;
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
